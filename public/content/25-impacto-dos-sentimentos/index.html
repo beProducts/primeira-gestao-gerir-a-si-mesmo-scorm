@@ -48,6 +48,13 @@
                 <form id="frmQuestions" name="frmQuestions">
                     <div class="row">
                         <template data-question-id-86 class="large"></template>
+                        <div id="form-scorm1" class="col s12 hide">
+                            <div class='input-field col s12'>  
+                                <label for='field-86'>Registre sua reflexão no espaço abaixo.</label>  
+                                <textarea data-scorm-mode-on class='materialize-textarea' name='field-86' data-type="1" id='field-86'></textarea>
+                            </div>
+                        </div>
+
                         <div class="col s12">
                             <p class="mb-3">
                                 <strong>Reconheça! Assuma este sentimento para si mesmo!</strong><br>
@@ -111,6 +118,12 @@
                             <p class="mb-0">Como foi?</p>
                         </div>
                         <template data-question-id-87></template>
+                        <div id="form-scorm2" class="col s12 hide">
+                            <div class='input-field col s12'>  
+                                <label for='field-87'>Registre aqui como foi vivenciar esta experiência.</label>  
+                                <textarea data-scorm-mode-on class='materialize-textarea' name='field-87' data-type="1" id='field-87'></textarea>  
+                            </div>
+                        </div>
 
                         <div class="action-send-form input-field col s12">
                             <button id="btnSend" class="btn" type="submit" onclick="pluginComponentFormJS.sendForm(event);">Gravar dados</button>
