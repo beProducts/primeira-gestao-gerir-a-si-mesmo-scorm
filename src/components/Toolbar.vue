@@ -9,7 +9,7 @@
           </a>
         </p>
       </div>
-      <div>
+      <div v-if="scormMode !== 'ON'">
         <p class="center-align">
           <a href="javascript:void(0);" @click="openHelpBar">
             <HelpCircle />
@@ -17,7 +17,7 @@
           </a>
         </p>
       </div>
-      <div>
+      <div v-if="scormMode !== 'ON'">
         <p class="center-align">
           <a href="javascript:void(0);" @click="toggleCommentBar">
             <ChatIcon />
