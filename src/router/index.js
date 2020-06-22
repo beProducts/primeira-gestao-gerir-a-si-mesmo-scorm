@@ -45,7 +45,7 @@ const router = new Router({
       path: '/',
       redirect: () => {
         if (process.env.VUE_APP_SCORM_MODE !== 'ON')  return '/login';
-        else  return '/comece-por-aqui';
+        else  return '/sobre-gerir-a-si-mesmo';
       }
     },
     {
