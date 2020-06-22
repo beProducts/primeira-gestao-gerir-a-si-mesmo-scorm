@@ -826,6 +826,7 @@ export default {
   },
   data() {
     return {
+      scormMode: process.env.VUE_APP_SCORM_MODE,
       route1Check: false,
       route2Check: false,
       route3Check: false,
