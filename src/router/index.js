@@ -176,14 +176,15 @@ router.beforeEach((to, from, next) => {
   const loggedIn = localStorage.getItem(productTokenKey);
 
   // Check authentication
-  if (authRequired && !loggedIn) {
+  if (authRequired && !loggedIn && process.env.VUE_APP_SCORM_MODE !== 'ON') {
     return next('/');
   }
 
   // Check tutorial
   const onBoardingPages = ['welcome', 'howIsTheJourneyOrganized', 'chooseYourNavigationType'];
   if (localStorage.getItem(productOnboardingKey) === 'N' && onBoardingPages.includes(to.name)) {
-    next({ path: '/comece-por-aqui' })
+    if(process.env.VUE_APP_SCORM_MODE !== 'ON'){  next({ path: '/comece-por-aqui' });  }
+    else{  next({ path: '/sobre-gerir-a-si-mesmo' });  }
   }
 
   next();
