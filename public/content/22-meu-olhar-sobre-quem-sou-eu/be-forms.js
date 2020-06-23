@@ -24,7 +24,7 @@ let pluginComponentDownloadJS = {
     // eslint-disable-next-line no-unused-vars
     let $container = $('main');
     let containerW = 800; //$container.outerWidth();
-    let containerH = 3758; //$container.outerHeight();
+    let containerH = 3795; //$container.outerHeight();
 
     pluginComponentDownloadJS.screenshot([$("main").get(0)], {
       'width': containerW,
