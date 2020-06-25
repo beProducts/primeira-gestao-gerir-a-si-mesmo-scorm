@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-FE68E38D9B0CE7DF9056E46A346E8DA1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG-5D04365F0F867ECC17390EAF3E209E24">
+    <organization identifier="ORG-5D04365F0F867ECC17390EAF3E209E24" structure="hierarchical">
+      <title>Primeira Gestão - Gerir a si mesmo</title>
+      <item identifier="ITEM-5CBC327A9889F0CC3B80549F77BDA885" identifierref="index" isvisible="true">
+        <title>Conteúdo</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource href="index.html" identifier="index" adlcp:scormtype="sco" type="text/html">
+      <file href="js/app.js" />
+      <file href="js/app.js.map" />
+      <file href="js/chunk-vendors.js" />
+      <file href="js/chunk-vendors.js.map" />
+      <file href="js/scorm.js" />
+      <file href="img/loading.gif" />
+      <file href="img/login-cover.jpg" />
+      <file href="img/map-v.png" />
+      <file href="img/map.png" />
+      <file href="img/random-navigation.png" />
+      <file href="img/SanukOT-Bold.svg" />
+      <file href="img/SanukOT-Thin.svg" />
+      <file href="img/SanukOT.svg" />
+      <file href="img/sequel-navigation.png" />
+      <file href="css/app.css" />
+      <file href="css/chunk-vendors.css" />
+      <dependency identifierref="common_files" />
+    </resource>
+    <resource identifier="common_files" type="webcontent">
+      <file href="content/19-sobre-gerir-a-si-mesmo/index.html" />
+      <file href="content/20-o-que-ja-sei-sobre-mim/index.html" />
+      <file href="content/21-o-olhar-do-outro-sobre-mim/index.html" />
+      <file href="content/22-meu-olhar-sobre-quem-sou-eu/index.html" />
+      <file href="content/23-meu-olhar-sobre-a-minha-historia/index.html" />
+      <file href="content/24-analise/index.html" />
+      <file href="content/25-impacto-dos-sentimentos/index.html" />
+      <file href="content/26-mindset-de-lideranca/index.html" />
+      <file href="content/27-ansiedade-e-normose/index.html" />
+      <file href="content/28-o-efeito-dunning-kruger/index.html" />
+      <file href="content/29-sindrome-do-impostor/index.html" />
+      <file href="content/30-os-proximos-15-dias/index.html" />
+    </resource>
+  </resources>
+</manifest>
+
