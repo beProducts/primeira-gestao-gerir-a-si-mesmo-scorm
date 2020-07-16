@@ -77,6 +77,13 @@
     <script src="jquery.min.js"></script>
     <script src="materialize.min.js"></script>
     <script src="materialize.min.js"></script>
+    <style>
+        @media (min-width:1024px) {
+            .plyr_captions .plyr_caption {
+                font-size: 24px !important
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -86,6 +93,7 @@
                 <div id="youtube_video_2" class="fr-widget fr-video fr-wf fr_youtube_video_2">
                     <video id="player" playsinline controls>
                         <source src="mindset-de-lideranca.mp4" type="video/mp4" size="576" />
+                        <track kind="captions" label="Português" src="./Mindset-de-lideranca-pt-br.vtt" srclang="pt-BR" default />
                     </video>
                 </div>
             </div>
@@ -259,7 +267,7 @@
     <div id="footer-assets">
     </div>
     <script>
-        new Plyr('#player');        
+        new Plyr('#player', {captions: {active: true}});        
     </script>
 </body>
 
